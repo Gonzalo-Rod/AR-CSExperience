@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 0c1f6f8ee7dd4ef46b6bd8d79647f4a1
+  - enabled: 1
+    path: Assets/Scenes/VuforiaScreen.unity
+    guid: 256da3f1639296c40bd35a96fd175096
+  - enabled: 1
+    path: Assets/Scenes/GameScreen.unity
+    guid: ea76a6bce541f9649892d811214f4a06
+  - enabled: 1
+    path: Assets/Scenes/ARPuzzle3x3.unity
+    guid: aef52e6dd2b28b74e839fa76cbf8b87f
+  - enabled: 1
+    path: Assets/Scenes/ARPuzzle4x4.unity
+    guid: cb51a1a3b0d7b0a40a591871f123d229
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 133b11a6e32ba754aad101707d0c0da7, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9acfa0a153a3d3649972dd97b9e5d64c, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 2832d6e1a3559a84195c4c8fa08800d2, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d9e940909f050704e8564c7ea723346b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4f0255fe9f4d5bb49b206c3f170cf152, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d58e564d1e4217c4c9131df365deae3a, type: 2}
